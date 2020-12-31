@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Index page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 m-auto">
+                  <h1 class="text-center display-4 my-4">File Uploader</h1>
+                <form action="/upload" method="POST"
+                enctype="multipart/form-data">
+                    <div class="custom-file mb-3">
+                        <input type="file" name="file" id="file" class="custom-file-input">
+                        <label for="file" class="custom-file-label">Choose file</label>
+                    </div>
+                    <input type="submit" value="Submit" class='btn btn-primary btn-block'>
+                </form>
+                </div>
+        </div>
+    </div>
+    
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
